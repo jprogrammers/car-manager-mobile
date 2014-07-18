@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">محاسبه گر قیمت</string>
+    <string name="foob_cost">ارزش فوب</string>
+    <string name="count">تعداد</string>
+    <string name="transport">کرایه حمل</string>
+    <string name="currency">نرخ ارز</string>
+    <string name="income_percent">درصد حقوق ورودی</string>
+    <string name="red_moon_percent">درصد حلال احمر</string>
+    <string name="tax_1">درصد مالیات 1</string>
+    <string name="tax_2">درصد مالیات 2</string>
+    <string name="input_toll">عوارض ورودی</string>
+    <string name="note">تبصره</string>
+    <string name="tax">مالیات</string>
+    <string name="municipal">شهرداری</string>
+    <string name="vehicle">خودروبر</string>
+    <string name="other">سایر</string>
+    <string name="finance_toll">عوارض دارایی</string>
+    <string name="insurance_count">بیمه شماره گذاری</string>
+    <string name="plate">پلاک</string>
+    <string name="licence">مجوز</string>
+    <string name="calculate">محاسبه</string>
+    <string name="stuff_price_in_dollar">ارزش دلاری کالا : </string>
+    <string name="stuff_price_in_rial">ارزش کل : </string>
+    <string name="insurance">بیمه : </string>
+    <string name="customs">گمرکی : </string>
+    <string name="entrance">حقوق ورودی : </string>
+    <string name="helal_ahmar">حلال احمر : </string>
+    <string name="tax1">مالیات 1 : </string>
+    <string name="tax2">مالیات 2 : </string>
+    <string name="total_tax">مالیات کل : </string>
+    <string name="import_duties">عوارض وادرات : </string>
+    <string name="custom_pay">پرداخت گمرکی : </string>
+    <string name="total_price">جمع کل پرداختی : </string>
+    <string name="close">بستن</string>
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_container"
+            android:layout_gravity="center_horizontal|center_vertical">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/foob_cost"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/foob_cost"
+                    android:inputType="number"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/count"
+                    android:hint="@string/count"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/transport"
+                    android:hint="@string/transport"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/currency"
+                    android:hint="@string/currency"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/income_percent"
+                    android:hint="@string/income_percent"
+                    android:inputType="numberDecimal"
+                    android:digits="1234567890."
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/red_moon_percent"
+                    android:hint="@string/red_moon_percent"
+                    android:inputType="numberDecimal"
+                    android:digits="1234567890."
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tax_1_percent"
+                    android:hint="@string/tax_1"
+                    android:inputType="numberDecimal"
+                    android:digits="1234567890."
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tax_2_percent"
+                    android:hint="@string/tax_2"
+                    android:inputType="numberDecimal"
+                    android:digits="1234567890."
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/input_toll"
+                    android:hint="@string/input_toll"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/note"
+                    android:hint="@string/note"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tax"
+                    android:hint="@string/tax"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/municipal"
+                    android:hint="@string/municipal"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehicle"
+                    android:hint="@string/vehicle"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/other"
+                    android:hint="@string/other"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/finance_toll"
+                    android:hint="@string/finance_toll"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/insurance_count"
+                    android:hint="@string/insurance_count"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plate"
+                    android:hint="@string/plate"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/licence"
+                    android:hint="@string/licence"
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/calculate"
+                    android:background="#C33357"
+                    android:id="@+id/calculate"
+                    android:gravity="center_vertical|center_horizontal"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
